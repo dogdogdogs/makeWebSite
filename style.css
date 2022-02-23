@@ -33,3 +33,25 @@ header ul {
 }
 
 /* ^header */
+
+/* main-contents */
+.main-contents {
+  width: 800px;
+  height: 1000px;
+  display: flex;
+}
+/* >main-content */
+.main-content {
+  background-color: blueviolet;
+  width: 70%;
+}
+/* >sub-content */
+.sub-content {
+  background-color: brown;
+  width: 30%;
+}
+
+/* ^maincontents */
+
+
+
