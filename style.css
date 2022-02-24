@@ -43,14 +43,18 @@ header ul {
 /* >main-content */
 .main-content {
   background-color: blueviolet;
-  width: 70%;
+  width: 80%;
+  order: 1;
 }
 /* >sub-content */
 .sub-content {
   background-color: brown;
-  width: 30%;
+  width: 20%;
 }
-
+.sub-content a {
+  color: black;
+  
+}
 /* ^maincontents */
 
 
