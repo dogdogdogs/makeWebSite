@@ -4,6 +4,9 @@ body {
 li {
   list-style-type: none;
 }
+a {
+  text-decoration: none;
+}
 
 /* header */
 header {
@@ -42,7 +45,7 @@ header ul {
 }
 /* >main-content */
 .main-content {
-  background-color: blueviolet;
+  background-color: #00a381;
   width: 80%;
   order: 1;
 }

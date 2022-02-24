@@ -3,13 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>和色図鑑</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="title">
-    <h1>和色図鑑</h1>
+    <h1>色図鑑</h1>
   </div>
-  <table border="1" class="color-table">
+  <div class="main-contents">
+    <ul class="menu">
+      <li><a href="#" class="color-ja" data-id="japan">和色</a></li>
+      <li><a href="#" class="color-fo" data-id="foreign">海外</a></li>
+      <li><a href="#" class="color-ea" data-id="earth">地球</a></li>
+    </ul>
+    <section class="content active" id="japan">
+      <table border="0" class="color-table">
     <tr>
       <td style="background-color:#fef4f4"><a title="桜色 さくらいろ #fef4f4" href="#" style="color:#333333">桜色<span>さくらいろ</span><br>#fef4f4</a></td>
       <td style="background-color:#96514d"><a title="小豆色 あずきいろ #96514d" href="#" style="color:#ffffff">小豆色<span>あずきいろ</span><br>#96514d</a></td>
@@ -1571,6 +1578,17 @@
               <a title="暗黒色 あんこくしょく #16160e" href="#" style="color:#ffffff">暗黒色<span>あんこくしょく</span><br>#16160e</a>
               </td>
                       </tr>
-  </table>
+      </table>
+    </section>
+
+    <section class="content" id="foreign">
+      まだ
+    </section>
+
+    <section class="content" id="earth">
+      まだまだ
+    </section>
+  </div>
+  <script src="main.js"></script>
 </body>
 </html>
