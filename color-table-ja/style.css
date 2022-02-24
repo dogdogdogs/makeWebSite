@@ -35,6 +35,7 @@ body {
 }
 .menu li a.active {
   background: #00a381;
+  color: white;
 }
 .content.active {
   display: block;
