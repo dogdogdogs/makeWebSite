@@ -6,7 +6,6 @@ li {
 }
 a {
   text-decoration: none;
-  color: black;
 }
 
 /* header */
@@ -48,10 +47,20 @@ header ul {
   width: 80%;
   order: 1;
 }
+/* table */
+th, td, tr {
+  border: 1px solid grey;
+}
+
+
 /* >sub-content */
 .sub-content {
   background-color: brown;
   width: 20%;
+}
+.sub-content a {
+  color: black;
+  
 }
 /* ^maincontents */
 

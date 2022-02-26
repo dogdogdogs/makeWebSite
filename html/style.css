@@ -1,12 +1,12 @@
+/* common */
 body {
-  margin: 0;
+  margin: 0 0 100px 0;
 }
 li {
   list-style-type: none;
 }
 a {
   text-decoration: none;
-  color: black;
 }
 
 /* header */
@@ -48,12 +48,22 @@ header ul {
   width: 80%;
   order: 1;
 }
+.main-content td, tr, th {
+  border: 1px solid grey;
+  background-color: white;
+}
+.main-content td {
+  padding: 4px;
+}
 /* >sub-content */
 .sub-content {
   background-color: brown;
   width: 20%;
 }
-/* ^maincontents */
+.sub-content a {
+  color: black;
+  
+}
 
 
 
